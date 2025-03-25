@@ -12,7 +12,11 @@
    
 # Devops 3rd Project
 1. Install Nginx server.
-2. Create script file to generate logs for nginx server.
-3. Execute the file and the logs will be generated.
-4. Push the file to github repository.
-5. https://roadmap.sh/projects/nginx-log-analyser
+   
+3. Create script file to generate logs for nginx server.
+   
+5. Execute the file and the logs will be generated.
+   
+7. Push the file to github repository.
+   
+9. https://roadmap.sh/projects/nginx-log-analyser
