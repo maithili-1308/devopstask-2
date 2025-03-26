@@ -15,7 +15,7 @@ archive_logs() {
 
     # Check if the log directory exists
     if [ ! -d "$log_dir" ]; then
-        echo "❌ Error: Directory '$log_dir' does not exist."
+        echo " Error: Directory '$log_dir' does not exist."
         exit 1
     fi
 
@@ -29,9 +29,9 @@ archive_logs() {
 
     if [ $? -eq 0 ]; then
         echo "$(date +"%Y-%m-%d %H:%M:%S") - Archived $log_dir to $ARCHIVE_PATH" >> "$LOG_FILE"
-        echo "✅ Logs archived successfully: $ARCHIVE_PATH"
+        echo " Logs archived successfully: $ARCHIVE_PATH"
     else
-        echo "❌ Failed to archive logs."
+        echo " Failed to archive logs."
         exit 1
     fi
 }
